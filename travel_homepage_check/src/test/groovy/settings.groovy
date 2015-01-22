@@ -53,5 +53,5 @@ class TravelResultsPage extends Page {
 }
 
 class HotelPage extends Page {
-    static at = {title.contains "JAL" || title.contains "ＪＡＬ"}
+    static at = {title.contains "ＪＡＬ"}
 }

@@ -8,8 +8,9 @@ import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.ie.InternetExplorerDriver
 
 driver = "chrome"
+//driver = "firefox"
 
-System.setProperty("webdriver.chrome.driver", "exe/chromedriver.exe")
+System.setProperty("webdriver.chrome.driver", "D:/test/Geb_tests/GebStudy/travel_homepage_check/exe/chromedriver.exe")
 
 System.setProperty("webdriver.ie.driver", "exe/IEDriverServer.exe")
 
